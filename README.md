@@ -1,2 +1,3 @@
-fs Whitelist via database phpmyadmin support Inferno
-Cara pemasangannya juga gampang seperti Whitelist pada umumnya hanya di rubah beberapa pada scrip tersebut, jangan lupa download discord connect terbaru agar support dengan scripnya
+FS WHITELIST SAMP
+Fs ini saya buat khusus untuk gm inferno 
+basic fs
