@@ -19,7 +19,7 @@ mysql_format(mMysql, format_string, 144, "SELECT * FROM `whitelist_player` WHERE
 stock KickNoWL(playerid)
 {
 	SCM(playerid, COLOR_YELLOW, "{deb545}SERVER: {ffffff}Akun Anda Belom Terdaftar Di Whitelist Atau Anda Di Blacklist!");
-	format(format_string, 133, "{FFA352}Lexx's Bot: {FFFF00}%s {FF541F}Has Been Kicked From Server {FFFF00}(No Whitelist / Blacklist)", Name(playerid));
+	format(format_string, 133, "{FFA352}Bot: {FFFF00}%s {FF541F}Has Been Kicked From Server {FFFF00}(No Whitelist / Blacklist)", Name(playerid));
     SendClientMessageToAll(playerid, format_string);
     format(String, 766, "{FFFFFF}Akun Anda: {C82EFF}%s\n{FFFFFF}Belom Terdaftar Di Whitelist Server Ini Atau Akun Anda Di Blacklist\nAnda Dapat Menghubungi Administrator Server Ini Di Discord Kami:\n{7FD400}'Comingsoon'", Name(playerid));
     SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, "Whitelist System", String, "Tutup", "");
